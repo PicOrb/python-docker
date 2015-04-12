@@ -1,4 +1,4 @@
-FROM google/python
+FROM picorb/python
 
 WORKDIR /app
 ONBUILD RUN virtualenv /env
